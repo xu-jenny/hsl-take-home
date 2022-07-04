@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.6",
+    "@reduxjs/toolkit": "^1.8.3",
+    "dotenv": "^16.0.1",
+    "react-redux": "^8.0.2"
+  }
+}

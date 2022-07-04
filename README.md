@@ -26,7 +26,7 @@ Database is postgres that is manually populated by command. There's no api to ad
 
 To connect to database:
 1. connect to postgres container by `docker ps` to find the postgres container id
-2. `docker exec -ot [CONTAINER_ID] /bin/sh/` to execute postgres
+2. `docker exec -it [CONTAINER_ID] /bin/sh/` to execute postgres
 3. `#=psql --username postgres` to log on to the super user. if it asks for password you can find it in `settings.py`
 4. run `\d` to see a list of tables, the table used is `feedbackui_experimentuser`
 You can use postgres commands (SQL) to modify the database as you wish

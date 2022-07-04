@@ -12,6 +12,7 @@ docker should automatically install dependencies. but if you run into errors aro
 1. install npm or yarn
 2. `cd feedbackui_web`
 3. `npm install` or `yarn install`
+4. run `npm start` or `yarn start`
 
 
 This repo is a UI that has 3 screens:
